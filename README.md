@@ -24,8 +24,19 @@ Phase | 100% | - | Clean
 Category | 100% | - | Clean
 Launch Date (Plan) | 48.1% | Mixed format: datetime + string (68 rows) | Unified to datetime
 Launch Date (Forecast) | 58.8% | Mixed format: datetime + string (67 rows) | Unified to datetime
-Functional Area | 29 nulls + text 'None' | Replaced with 'Not specified'
+Functional Area | 98.2% | 29 nulls + text 'None' | Replaced with 'Not specified'
 
+**Defects Summary**
+№ | Defect | Rows Affected | Action Taken
+--- | --- | --- | ---
+1 | Duplicate / missing SPP codes | 22 | Isolated for source review
+2 | Mixed date formats | 68 | Converted to datetime
+3 | Status firld typo | 2 | Standardised
+4 | Missing launch dates | 646 | Filtered for schedule metrics
+5 | Empty functional area | 29 | Filled as 'Not specified'
+6 | Only 1 completed project | 1 | Flagged for stakeholder clarification
+
+**Result:** 1,595 clean records saved to data_cleaned.xlsx
 ---
 
 ## 🛠️ Tech Stack
