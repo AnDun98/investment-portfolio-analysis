@@ -76,6 +76,9 @@ Project with schedule delay | 51% | 🔴 Critical
 Projects on hold | 22% | 🟡 Needs attention
 Max PM workload (active projects) | 57 projects | 🟡 Needs attention
 
+<img height="676" alt="image" src="https://github.com/user-attachments/assets/baee7ce7-618b-416a-a228-5f3f8fdf5606" />
+
+
 **Analysis Limitations**
 
 This analysis is based on a static data snapshot. The following data would improve depth:
