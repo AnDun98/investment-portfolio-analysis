@@ -3,16 +3,26 @@
 # 📌 Overview
 This project presents an end-to-end analysis of a corporate investment project portfolio. The work covers data quality assessment and cleaning, interactive dashboard development and business insights with actionable recommendations.
 
-## Key findings at a glance:
-- Portfolio of 1,595 projects with a total approved budget of **676.7B RUB**
-- Forecast budget exceeds approved by **+82.9%** (+561.3B RUB)
-- **51% of projects with known dates are delayed** - average delay 407 days
-- **22% of projects are on hold** (357 out of 1,595)
-- Average PM workload: **41 active projects per manager** (max 57)
+The analysis covers three major areas:
+- Data Quality Assessment
+- Portfolio Perfoemance Analysis
+- Executive Dashboard Development
 
 ---
 
-## ⚙️ Block 1 - Data Preparation
+## 🎯 Business Objectives
+The purpose of this analysis is to provide management with a consolidated view of the investment portfolio and identify projects requiring increased attention due to budget or schedule risks.
+
+Key business questions:
+- What is the current state of the investment portfolio?
+- Which projects represent the highest financial risk?
+- Where are budget overruns concentrated?
+- Which organizational units require management attention?
+- What additional information is needed to improve governance?
+
+---
+
+## ⚙️ Dataset
 **Source file:** Пуски Бюджет.xlsx - 1,615 rows, 14 columns
 
 **Data Quality Passport**
@@ -49,6 +59,11 @@ Portfolio Overview | KPI cards, status distribution, budget ny programme, office
 Budget Analysis | Plan vs Forecast by office, overrun distribution, top-15 projects by overrun
 Schedule Analysis | Plan vs Forecast launch dates, delay distribution, top-15 delayed projects, quarterly launch forecast
 Project Managers | Workload ranking, budget overrun % per PM, delay % per PM
+
+---
+
+## Dashboard Preview
+<img height="800" alt="image" src="https://github.com/user-attachments/assets/3bb04e7e-036f-4d3a-a80d-0f05999ab454" />
 
 ---
 
