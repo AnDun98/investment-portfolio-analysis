@@ -1,5 +1,4 @@
 # 📊 Investment Portfolio Analysis
-**Tools:** Python (pandas, numpy) | Power BI
 
 # 📌 Overview
 This project presents an end-to-end analysis of a corporate investment project portfolio. The work covers data quality assessment and cleaning, interactive dashboard development and business insights with actionable recommendations.
@@ -12,3 +11,17 @@ This project presents an end-to-end analysis of a corporate investment project p
 - Average PM workload: **41 active projects per manager** (max 57)
 
 ---
+
+## ⚙️ Block 1 - Data Preparation
+**Source file:** Пуски Бюджет.xlsx - 1,615 rows, 14 columns
+
+**Data Quality Passport**
+Column | Completeness | Issues Found | Resolution
+--- | --- | --- | ---
+Project ID (SPP) | 99.6% | 6 missing, 16 duplicates | Isolated for manual review
+
+---
+
+## 🛠️ Tech Stack
+- Python (pandas, numpy)
+- Power BI
