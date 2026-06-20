@@ -16,3 +16,16 @@ Donut chart | Project distribution by status
 Clustered bar chart | Approved vs forecast budget by programme
 Matrix | Office to Status - number of projects with conditional formatting
 Slicers | Office, Programme, Category, Status
+
+### Page 2 - Budget Analysis
+
+Where and by how much are budgets being exceeded?
+<img height="800" alt="image" src="https://github.com/user-attachments/assets/2b7952de-0050-4208-89d9-80d6792a3a5d" />
+
+Visual | Description
+--- | ---
+Clustered column chart | Approved vs forecast budget by office
+Bar chart | Project by overrun range (<= 0%, 0-20%, 20-50%, > 50%)
+Table (Top 15) | Projects with highest budget overrun - conditional formatting applied
+Column chart | Overrun % by functional area
+Slicers | Office, Programme, Category, Status
