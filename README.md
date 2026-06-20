@@ -40,6 +40,18 @@ Functional Area | 98.2% | 29 nulls + text 'None' | Replaced with 'Not specified'
 
 ---
 
+## 📈 Block 2 - Dashboard
+
+The dashboard consists of 4 pages:
+Page | Purpose
+--- | ---
+Portfolio Overview | KPI cards, status distribution, budget ny programme, office and status matrix
+Budget Analysis | Plan vs Forecast by office, overrun distribution, top-15 projects by overrun
+Schedule Analysis | Plan vs Forecast launch dates, delay distribution, top-15 delayed projects, quarterly launch forecast
+Project Managers | Workload ranking, budget overrun % per PM, delay % per PM
+
+---
+
 ## 🛠️ Tech Stack
 - Python (pandas, numpy)
 - Power BI
