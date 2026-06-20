@@ -57,6 +57,6 @@ Who is managing what and how effectively?
 Visual | Description
 --- | ---
 Table | PM summary: project count, total budget, overrun %, delay days
-Bar chart (Top 15) | PMs by number of active projects
+Bar chart (Top 10) | PMs by number of active projects
 Bar chart (Top 10) | PMs by budget overrun %
 Slicers | Office, Programme, Category, Status
