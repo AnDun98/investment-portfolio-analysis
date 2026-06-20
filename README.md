@@ -77,6 +77,7 @@ Projects on hold | 22% | 🟡 Needs attention
 Max PM workload (active projects) | 57 projects | 🟡 Needs attention
 
 **Analysis Limitations**
+
 This analysis is based on a static data snapshot. The following data would improve depth:
 - **Budget change history** - to identify at which project phase cost growth occurs
 - **Reason for suspention** - 357 on-hold projects cannot be risk-segmented without this field
@@ -88,3 +89,21 @@ This analysis is based on a static data snapshot. The following data would impro
 ## 🛠️ Tech Stack
 - Python (pandas, numpy)
 - Power BI
+
+---
+
+## 📥 Project Structure
+
+investment-portfolio-analysis/
+
+|
+
+|-- data/        # source & prepared datasets
+
+|-- notebooks/   # data cleaning & transformation logic
+
+|-- dashboard/   # pbix file
+
+|-- reports/     # presentation with main results
+
+|-- README.md
