@@ -67,6 +67,24 @@ Project Managers | Workload ranking, budget overrun % per PM, delay % per PM
 
 ---
 
+## 🎯 Block 3 - Key Findings
+**Summary**
+Metric | Value | Status
+--- | --- | ---
+Budget Overrun (portfolio) | +82.9% | 🔴 Critical
+Project with schedule delay | 51% | 🔴 Critical
+Projects on hold | 22% | 🟡 Needs attention
+Max PM workload (active projects) | 57 projects | 🟡 Needs attention
+
+**Analysis Limitations**
+This analysis is based on a static data snapshot. The following data would improve depth:
+- **Budget change history** - to identify at which project phase cost growth occurs
+- **Reason for suspention** - 357 on-hold projects cannot be risk-segmented without this field
+- **Actual project start dates** - required to calculate full delivery cycle and SPI
+- **Archived status definition** - unclear whether these are completed or cancelled projects
+
+---
+
 ## 🛠️ Tech Stack
 - Python (pandas, numpy)
 - Power BI
