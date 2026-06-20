@@ -1,2 +1,2 @@
-# investment-portfolio-analysis
-Data quality audit and Power BI dashboard for investment project portfolio
+# Investment Portfolio Analysis
+Tools: Python (pandas, numpy) | Power BI
