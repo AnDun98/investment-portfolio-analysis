@@ -19,6 +19,12 @@ This project presents an end-to-end analysis of a corporate investment project p
 Column | Completeness | Issues Found | Resolution
 --- | --- | --- | ---
 Project ID (SPP) | 99.6% | 6 missing, 16 duplicates | Isolated for manual review
+Project Status | 100% | Typo 'В архив' vs 'В архиве' | Standardised
+Phase | 100% | - | Clean
+Category | 100% | - | Clean
+Launch Date (Plan) | 48.1% | Mixed format: datetime + string (68 rows) | Unified to datetime
+Launch Date (Forecast) | 58.8% | Mixed format: datetime + string (67 rows) | Unified to datetime
+Functional Area | 29 nulls + text 'None' | Replaced with 'Not specified'
 
 ---
 
