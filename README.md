@@ -36,7 +36,8 @@ Functional Area | 98.2% | 29 nulls + text 'None' | Replaced with 'Not specified'
 5 | Empty functional area | 29 | Filled as 'Not specified'
 6 | Only 1 completed project | 1 | Flagged for stakeholder clarification
 
-**Result:** 1,595 clean records saved to data_cleaned.xlsx
+**✔️ Result:** 1,595 clean records saved to data_cleaned.xlsx
+
 ---
 
 ## 🛠️ Tech Stack
